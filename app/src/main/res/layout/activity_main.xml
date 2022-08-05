@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:drawableEnd="@drawable/ic_icon"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="keppoya"
+            android:textColor="@color/generall"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/robotocondensed_regular"
+            android:padding="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
